@@ -1,0 +1,37 @@
+body{
+  background-color:  #02010a;
+}
+
+.cabecera{
+  background-color: #5b7989;
+  border-radius: 25px;
+  display: flex;
+  flex-flow: nowrap;
+}
+
+.cabecera h1 {
+  color: white;
+  float: left;
+  text-shadow:-2px 0px #02010a;
+}
+
+.cabecera div{
+  float: right;
+  padding: 2vw 5vw 2vw 5vw;
+}
+
+a:link{
+  text-decoration: underline;
+}
+
+a:visited{
+  text-decoration: underline;
+}
+
+a:hover{
+  color: white;
+  text-decoration: underline;
+}
+a:active{
+  text-decoration: none;
+}
