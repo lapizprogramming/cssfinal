@@ -6,32 +6,22 @@ body{
   background-color: #5b7989;
   border-radius: 25px;
   display: flex;
-  flex-flow: nowrap;
+  justify-content: space-between;
 }
 
 .cabecera h1 {
   color: white;
   float: left;
   text-shadow:-2px 0px #02010a;
+  text-align: left;
 }
 
-.cabecera div{
-  float: right;
-  padding: 2vw 5vw 2vw 5vw;
+.cabecera nav{
+  word-spacing: 3em;
+  padding: 2vw 2vw 0vw 2vw;
+  text-align: right;
 }
 
-a:link{
-  text-decoration: underline;
-}
-
-a:visited{
-  text-decoration: underline;
-}
-
-a:hover{
-  color: white;
-  text-decoration: underline;
-}
-a:active{
+.activepage{
   text-decoration: none;
 }
