@@ -43,10 +43,13 @@ body{
   float: right;
   word-spacing: 3em;
   padding: 2vw 2vw 0vw 2vw;
+<<<<<<< HEAD
 }
 
 .links a{
   color: white;
+=======
+>>>>>>> origin/master
 }
 
 .activepage{
@@ -141,6 +144,7 @@ footer div{
   .cabecera{
     width: 100%;
   }
+<<<<<<< HEAD
   .cabecera{
     flex-flow: column;
   }
@@ -150,6 +154,8 @@ footer div{
     padding-bottom: 2vw;
   }
 
+=======
+>>>>>>> origin/master
   .imagenIzq{
     width: 100%;
   }
