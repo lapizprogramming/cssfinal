@@ -1,6 +1,14 @@
 body{
   background-color:  #02010a;
+  font-family: Dancing Script;
 }
+
+
+  .container{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 .cabecera{
   background-color: #5b7989;
@@ -22,6 +30,19 @@ body{
   text-align: right;
 }
 
+.imaCentral{
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .activepage{
   text-decoration: none;
+}
+
+/*Móvil*/
+@media (max-width 900px) {
+  .container, .imagenes{
+    width: 100%;
+  }
 }
